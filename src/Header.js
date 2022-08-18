@@ -5,6 +5,8 @@ import {
     Link
   } from "react-router-dom";
   import styled from "styled-components";
+
+  import {signin} from "./firebas/firebaseconfig"
   const Header = (props) => {
   
    
@@ -41,7 +43,7 @@ import {
             </NavMenu>
             
           </>
-          <Login >Login</Login>
+          <Login onClick={signin()} >Login</Login>
       </Nav>
     );
   };
