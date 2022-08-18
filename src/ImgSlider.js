@@ -28,7 +28,7 @@ const ImgSlider = (props) => {
 
       <Wrap>
         <a>
-          <img src="/images/rooti.png" alt="" />
+          <img src="/images/rooti.jpg" alt="" />
         </a>
       </Wrap>
 
