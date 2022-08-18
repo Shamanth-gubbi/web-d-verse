@@ -1,18 +1,23 @@
-import './Home.css';
-import React from 'react'
+import "./Home.css";
+import React from "react";
 import styled from "styled-components";
-import Header from './Header';
-import ImgSlider from './ImgSlider';
-import Product from './Product';
+import Header from "./Header";
+import ImgSlider from "./ImgSlider";
+import Product from "./Product";
 function Home() {
   return (
-    <Container>
-      <Header/>
-      <ImgSlider/>
-      <Product id={123} title="Pickels"price={69} rating={4} 
-      image="/images/pickels.jpg"/>
+    <Container classname="mains">
+      <Header />
+      <ImgSlider />
+      <Product
+        id={123}
+        title="Pickels"
+        price={69}
+        rating={4}
+        image="/images/pickels.jpg"
+      />
     </Container>
-  )
+  );
 }
 const Container = styled.main`
   position: relative;
@@ -21,7 +26,7 @@ const Container = styled.main`
   display: block;
   top: 72px;
   padding: 0 calc(3.5vw + 5px);
-    
+
   &:after {
     background: url("/images/home-background.png") center center / cover
       no-repeat fixed;
@@ -32,4 +37,4 @@ const Container = styled.main`
     z-index: -1;
   }
 `;
-export default Home
+export default Home;
