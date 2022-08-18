@@ -7,7 +7,10 @@ export default function Product({id,image,title,price,rating}) {
   return ( 
     <div className='product'>
       <div className='product__info'>
-      <img src={image} alt=""/>
+        <div className='v'>
+        <img src={image} alt=""/>
+        </div>
+      
       <p className='product__prices'>{title}</p>
         <p className='product__prices'>
             <small>Rs</small>

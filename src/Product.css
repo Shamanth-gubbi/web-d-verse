@@ -22,3 +22,7 @@
 .product__prices{
     color: white;
 }
+.v{
+    position: relative;
+    width: 70vw;
+}
