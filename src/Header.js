@@ -24,7 +24,7 @@ import {
                 
                 <span>HOME</span>
               </a>
-              <a>
+              <a href="/menu">
                 <span>MENU</span>
               </a>
               

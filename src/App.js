@@ -7,6 +7,7 @@ import {
 import './App.css';
 import About from "./About";
 import Home from './Home';
+import Menu from "./Menu";
 function App() {
   return (
     <Router>
@@ -22,7 +23,7 @@ function App() {
         <Route path="/aboutus" element ={<About/>}>
          
         </Route>
-        <Route path="/menu" element ={<App/>}>
+        <Route path="/menu" element ={<Menu/>}>
 
         </Route>
         <Route path="/cart" element ={<App/>}>

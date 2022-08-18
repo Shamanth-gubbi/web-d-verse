@@ -1,0 +1,24 @@
+.product{
+   display: flex; 
+   flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+    background-color: black;
+    border-radius: 1%;
+    margin: 20px;
+}
+.product__rating{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+    padding: 20px;
+    margin: 0px;
+}
+.product__prices{
+    color: white;
+}
